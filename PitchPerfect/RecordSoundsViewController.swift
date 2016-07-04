@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class RecordSoundsViewController: UIViewController {
+class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
 
     @IBOutlet weak var recordingLabel: UILabel!
     @IBOutlet weak var recordButton: UIButton!
@@ -67,5 +67,6 @@ class RecordSoundsViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         stopRecordingButton.enabled = false
     }
+    
 }
 
