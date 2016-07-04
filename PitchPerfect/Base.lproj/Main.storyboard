@@ -135,6 +135,15 @@
                             <constraint firstItem="oqO-lC-5G3" firstAttribute="leading" secondItem="W2O-Sr-qmj" secondAttribute="leadingMargin" id="hej-OG-umU"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="chipmunkButton" destination="iqU-mF-NOu" id="3zx-TK-Xoj"/>
+                        <outlet property="echoButton" destination="pxd-fF-24P" id="Cdp-56-OrF"/>
+                        <outlet property="rabbitButton" destination="zBQ-RL-PuN" id="LC7-OY-jmc"/>
+                        <outlet property="reverbButton" destination="eWJ-kc-5dD" id="OdK-1g-LJs"/>
+                        <outlet property="snailButton" destination="AEL-gf-KOv" id="ELa-hG-oDG"/>
+                        <outlet property="stopButton" destination="1Kd-bY-KHS" id="eI8-3p-FSa"/>
+                        <outlet property="vaderButton" destination="Ilw-4Q-tu1" id="DjC-iY-b3c"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GkH-aD-N4r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
