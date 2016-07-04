@@ -38,9 +38,9 @@ class ViewController: UIViewController {
         recordingLabel.text = "Tap to record"
     }
     
+    // Could put code in viewDidLoad instead
     override func viewWillAppear(animated: Bool) {
         stopRecordingButton.enabled = false
-
     }
 }
 
